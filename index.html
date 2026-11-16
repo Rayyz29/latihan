@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Temukan produk pilihan dengan mudah di PasarKita.">
+  <title>PasarKita — Belanja pilihanmu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="PasarKita, beranda"><span class="brand-mark">P</span>PasarKita</a>
+    <form class="search" role="search" action="#produk">
+      <label class="sr-only" for="search">Cari produk</label>
+      <input id="search" type="search" placeholder="Cari produk favoritmu...">
+      <button type="submit" aria-label="Cari">⌕</button>
+    </form>
+    <nav class="header-links" aria-label="Navigasi utama">
+      <a href="#kategori">Kategori</a>
+      <a class="cart-link" href="#produk"><span aria-hidden="true">♧</span> Keranjang <span class="cart-count">0</span></a>
+    </nav>
+  </header>
+
+  <main id="beranda">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">BELANJA LEBIH MUDAH</span>
+        <h1>Temukan yang kamu suka, <em>setiap hari.</em></h1>
+        <p>Produk pilihan, harga bersahabat, dan pengalaman belanja yang nyaman.</p>
+        <a class="button button-light" href="#produk">Jelajahi produk <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><span class="sun"></span><span class="art-bag">✿</span><span class="art-sparkle">✳</span><span class="art-dot"></span></div>
+      <span class="hero-note">Pilihan baik untuk harimu ✦</span>
+    </section>
+
+    <section class="categories section" id="kategori">
+      <div class="section-heading"><div><span class="eyebrow">PILIH SESUKAMU</span><h2>Jelajahi kategori</h2></div><a href="#produk" class="text-link">Lihat semua →</a></div>
+      <div class="category-list">
+        <a class="category" href="#produk"><span class="category-icon icon-fashion">✿</span><span>Fashion</span></a>
+        <a class="category" href="#produk"><span class="category-icon icon-home">⌂</span><span>Rumah tangga</span></a>
+        <a class="category" href="#produk"><span class="category-icon icon-tech">◉</span><span>Elektronik</span></a>
+        <a class="category" href="#produk"><span class="category-icon icon-care">❋</span><span>Kecantikan</span></a>
+        <a class="category" href="#produk"><span class="category-icon icon-hobby">♧</span><span>Hobi</span></a>
+      </div>
+    </section>
+
+    <section class="products section" id="produk">
+      <div class="section-heading"><div><span class="eyebrow">DIPILIH UNTUKMU</span><h2>Produk pilihan</h2></div><a href="#produk" class="text-link">Lihat semua →</a></div>
+      <div class="product-grid">
+        <article class="product-card"><a class="product-image product-one" href="#produk" aria-label="Tas kanvas harian"><span class="badge">Favorit</span><span class="product-illustration">▱</span><span class="image-caption">EVERYDAY<br>COLLECTION</span></a><div class="product-info"><p class="product-category">AKSESORI</p><h3>Tas Kanvas Harian</h3><div class="product-bottom"><strong>Rp129.000</strong><span class="rating">★ 4.9 <small>(128)</small></span></div></div></article>
+        <article class="product-card"><a class="product-image product-two" href="#produk" aria-label="Tumbler minimalis"><span class="product-illustration">▯</span><span class="image-caption">SLOW<br>MORNINGS</span></a><div class="product-info"><p class="product-category">RUMAH TANGGA</p><h3>Tumbler Minimalis</h3><div class="product-bottom"><strong>Rp89.000</strong><span class="rating">★ 4.8 <small>(96)</small></span></div></div></article>
+        <article class="product-card"><a class="product-image product-three" href="#produk" aria-label="Headphone studio"><span class="badge badge-new">Baru</span><span class="product-illustration">◖</span><span class="image-caption">LISTEN<br>YOUR WAY</span></a><div class="product-info"><p class="product-category">ELEKTRONIK</p><h3>Headphone Studio</h3><div class="product-bottom"><strong>Rp349.000</strong><span class="rating">★ 4.9 <small>(54)</small></span></div></div></article>
+        <article class="product-card"><a class="product-image product-four" href="#produk" aria-label="Perawatan kulit alami"><span class="product-illustration">♧</span><span class="image-caption">BOTANICAL<br>CARE</span></a><div class="product-info"><p class="product-category">KECANTIKAN</p><h3>Perawatan Kulit Alami</h3><div class="product-bottom"><strong>Rp75.000</strong><span class="rating">★ 4.7 <small>(82)</small></span></div></div></article>
+      </div>
+    </section>
+    <section class="promo"><div><span class="eyebrow">BELANJA TANPA RAGU</span><h2>Temukan barang istimewa,<br>tanpa perlu jauh-jauh.</h2></div><a href="#produk" class="button button-dark">Mulai belanja <span aria-hidden="true">→</span></a></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#beranda"><span class="brand-mark">P</span>PasarKita</a><p>Temukan hal kecil yang bikin harimu lebih baik.</p><span>© 2026 PasarKita</span></footer>
+</body>
+</html>
